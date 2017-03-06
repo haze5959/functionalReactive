@@ -1,0 +1,6 @@
+framework module Pods_functionalReactive {
+  umbrella header "Pods-functionalReactive-umbrella.h"
+
+  export *
+  module * { export * }
+}
