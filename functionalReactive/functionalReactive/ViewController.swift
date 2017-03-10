@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import RxSwift
-import RxCocoa
 
 class ViewController: UIViewController {
 
@@ -22,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func moveToSlotMachine(_ sender: UIButton) {
+        let slotMachineViewController = SlotMachineViewController(nibName: "SlotMachineViewController", bundle: nil);
+
+        slotMachineViewController.view.frame = self.view.frame;
+        self.view.addSubview(slotMachineViewController.view);
+        self.addChildViewController(slotMachineViewController);
+    }
 
 }
 
