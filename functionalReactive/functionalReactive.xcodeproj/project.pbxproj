@@ -15,6 +15,8 @@
 		CE1A6F841E6CE49900E151F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1A6F821E6CE49900E151F4 /* Main.storyboard */; };
 		CE1A6F861E6CE49900E151F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1A6F851E6CE49900E151F4 /* Assets.xcassets */; };
 		CE1A6F891E6CE49900E151F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1A6F871E6CE49900E151F4 /* LaunchScreen.storyboard */; };
+		CE655A0F1E76672E00B74300 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE655A0D1E76672E00B74300 /* RxCocoa.framework */; };
+		CE655A101E76672E00B74300 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE655A0E1E76672E00B74300 /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		CE1A6F851E6CE49900E151F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1A6F881E6CE49900E151F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE1A6F8A1E6CE49900E151F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE655A0D1E76672E00B74300 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "../../../Library/Developer/Xcode/DerivedData/functionalReactive-cqljefvswrjebgefavldytgbcbef/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework"; sourceTree = "<group>"; };
+		CE655A0E1E76672E00B74300 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/functionalReactive-cqljefvswrjebgefavldytgbcbef/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework"; sourceTree = "<group>"; };
 		DD298A2AE2256BC65EFDB113 /* Pods_functionalReactive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_functionalReactive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -37,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE655A0F1E76672E00B74300 /* RxCocoa.framework in Frameworks */,
+				CE655A101E76672E00B74300 /* RxSwift.framework in Frameworks */,
 				7425C0D67FB9ED01A1880C2F /* Pods_functionalReactive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +53,8 @@
 		420A52C1F91ED5D5EF3CA3CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE655A0D1E76672E00B74300 /* RxCocoa.framework */,
+				CE655A0E1E76672E00B74300 /* RxSwift.framework */,
 				DD298A2AE2256BC65EFDB113 /* Pods_functionalReactive.framework */,
 			);
 			name = Frameworks;
@@ -353,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = functionalReactive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = OQ.functionalReactive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = functionalReactive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = OQ.functionalReactive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
