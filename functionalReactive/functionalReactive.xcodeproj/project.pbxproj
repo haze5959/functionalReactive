@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7425C0D67FB9ED01A1880C2F /* Pods_functionalReactive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD298A2AE2256BC65EFDB113 /* Pods_functionalReactive.framework */; };
 		CE0ABC0B1E723413006C5825 /* SlotMachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0ABC091E723413006C5825 /* SlotMachineViewController.swift */; };
 		CE0ABC0C1E723413006C5825 /* SlotMachineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0ABC0A1E723413006C5825 /* SlotMachineViewController.xib */; };
 		CE1A6F7F1E6CE49900E151F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A6F7E1E6CE49900E151F4 /* AppDelegate.swift */; };
@@ -15,15 +14,16 @@
 		CE1A6F841E6CE49900E151F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1A6F821E6CE49900E151F4 /* Main.storyboard */; };
 		CE1A6F861E6CE49900E151F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1A6F851E6CE49900E151F4 /* Assets.xcassets */; };
 		CE1A6F891E6CE49900E151F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1A6F871E6CE49900E151F4 /* LaunchScreen.storyboard */; };
-		CE655A0F1E76672E00B74300 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE655A0D1E76672E00B74300 /* RxCocoa.framework */; };
-		CE655A101E76672E00B74300 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE655A0E1E76672E00B74300 /* RxSwift.framework */; };
+		CE655B5B1E77B7FA00B74300 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE655A0E1E76672E00B74300 /* RxSwift.framework */; };
+		CE655B5C1E77B7FD00B74300 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE655A0D1E76672E00B74300 /* RxCocoa.framework */; };
+		E98C505E87BCD10A2FE3BF2E /* Pods_functionalReactive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD298A2AE2256BC65EFDB113 /* Pods_functionalReactive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C46F4037C5F80B99CF9AFF3 /* Pods-functionalReactive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-functionalReactive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-functionalReactive/Pods-functionalReactive.debug.xcconfig"; sourceTree = "<group>"; };
 		76D6652EAE7E07D16781D2C6 /* Pods-functionalReactive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-functionalReactive.release.xcconfig"; path = "Pods/Target Support Files/Pods-functionalReactive/Pods-functionalReactive.release.xcconfig"; sourceTree = "<group>"; };
-		CE0ABC091E723413006C5825 /* SlotMachineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlotMachineViewController.swift; path = slotMachine/SlotMachineViewController.swift; sourceTree = "<group>"; };
-		CE0ABC0A1E723413006C5825 /* SlotMachineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SlotMachineViewController.xib; path = slotMachine/SlotMachineViewController.xib; sourceTree = "<group>"; };
+		CE0ABC091E723413006C5825 /* SlotMachineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotMachineViewController.swift; sourceTree = "<group>"; };
+		CE0ABC0A1E723413006C5825 /* SlotMachineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlotMachineViewController.xib; sourceTree = "<group>"; };
 		CE1A6F7B1E6CE49900E151F4 /* functionalReactive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = functionalReactive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1A6F7E1E6CE49900E151F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE1A6F801E6CE49900E151F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +33,7 @@
 		CE1A6F8A1E6CE49900E151F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE655A0D1E76672E00B74300 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "../../../Library/Developer/Xcode/DerivedData/functionalReactive-cqljefvswrjebgefavldytgbcbef/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework"; sourceTree = "<group>"; };
 		CE655A0E1E76672E00B74300 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/functionalReactive-cqljefvswrjebgefavldytgbcbef/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework"; sourceTree = "<group>"; };
+		CE655B5D1E77B98500B74300 /* Pods_functionalReactive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_functionalReactive.framework; path = "../../../Library/Developer/Xcode/DerivedData/functionalReactive-cqljefvswrjebgefavldytgbcbef/Build/Products/Debug-iphonesimulator/Pods_functionalReactive.framework"; sourceTree = "<group>"; };
 		DD298A2AE2256BC65EFDB113 /* Pods_functionalReactive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_functionalReactive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -41,9 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE655A0F1E76672E00B74300 /* RxCocoa.framework in Frameworks */,
-				CE655A101E76672E00B74300 /* RxSwift.framework in Frameworks */,
-				7425C0D67FB9ED01A1880C2F /* Pods_functionalReactive.framework in Frameworks */,
+				CE655B5C1E77B7FD00B74300 /* RxCocoa.framework in Frameworks */,
+				CE655B5B1E77B7FA00B74300 /* RxSwift.framework in Frameworks */,
+				E98C505E87BCD10A2FE3BF2E /* Pods_functionalReactive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +54,7 @@
 		420A52C1F91ED5D5EF3CA3CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE655B5D1E77B98500B74300 /* Pods_functionalReactive.framework */,
 				CE655A0D1E76672E00B74300 /* RxCocoa.framework */,
 				CE655A0E1E76672E00B74300 /* RxSwift.framework */,
 				DD298A2AE2256BC65EFDB113 /* Pods_functionalReactive.framework */,
@@ -75,7 +77,7 @@
 				CE0ABC091E723413006C5825 /* SlotMachineViewController.swift */,
 				CE0ABC0A1E723413006C5825 /* SlotMachineViewController.xib */,
 			);
-			name = slotMachine;
+			path = slotMachine;
 			sourceTree = "<group>";
 		};
 		CE1A6F721E6CE49800E151F4 = {
